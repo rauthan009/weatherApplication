@@ -166,7 +166,7 @@ module.exports = ".displayBox {\r\n    width: 600px;\r\n    border-top: 2px;\r\n
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = "<div class=\"row displayBox shadow-sm p-3 mb-5 bg-white rounded\">\n    <div class=\"leftElement\">\n            <p>{{item.weather[0].description}}</p>  \n            <p><img src=\"http://openweathermap.org/img/w/{{item.weather[0].icon}}.png\"> {{item.main.temp}} C </p>\n            \n    </div>\n    <div class=\"rightElement\">\n           <p>Humidity: <b>{{item.main.humidity}} %</b></p>\n           <p>Wind Speed: <b>{{item.wind.speed}} mph</b></p> \n    </div>\n</div>\n\n"
+module.exports = "<div class=\"row displayBox shadow-sm p-3 mb-5 bg-white rounded\">\n    <div class=\"leftElement\">\n            <p>{{item.weather[0].description}}</p>  \n            <p><img src=\"https://openweathermap.org/img/w/{{item.weather[0].icon}}.png\"> {{item.main.temp}} C </p>\n            \n    </div>\n    <div class=\"rightElement\">\n           <p>Humidity: <b>{{item.main.humidity}} %</b></p>\n           <p>Wind Speed: <b>{{item.wind.speed}} mph</b></p> \n    </div>\n</div>\n\n"
 
 /***/ }),
 
